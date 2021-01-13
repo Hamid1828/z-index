@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <form action="#"></form>
+  <body>
+    <div id="body">
+      <h3>New Payment</h3>
+      <ul class="header">
+        <li><i class="fas fa-credit-card"></i><a href="#">Card</a></li>
+        <li><i class="fad fa-money-bill-alt"></i><a href="#">Cash</a></li>
+        <li><i class="fad fa-money-bill-alt"></i><a href="#">Other</a></li>
+      </ul>
+      <ul class="input">
+        <li>
+          <input list="jobs" class="jobs" />
+          <datalist id="jobs">
+            <option value="Director"></option>
+            <option value="Student"></option>
+            <option value="Teacher"></option>
+          </datalist>
+        </li>
+        <li>
+          <input id="amount" type="text" placeholder="Amount" />
+        </li>
+        <li>
+          <input type="text" name="left" id="left" placeholder="Left" />
+        </li>
+        <li>
+          <input type="text" name="note" id="note" placeholder="Note" />
+        </li>
+        <li>
+          <input type="checkbox" name="check" id="check" /><label for="check"
+            >Mark as paid</label
+          >
+        </li>
+      </ul>
+      <ul class="button">
+        <li><input type="reset" name="reset" id="reset" value="Cancel" /></li>
+        <li>
+          <input type="submit" name="submit" id="submit" value="Create" />
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
